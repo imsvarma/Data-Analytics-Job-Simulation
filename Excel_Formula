@@ -1,0 +1,5 @@
+=IF(OR(C2 < -20, C2 > 20), "Highly Discriminative",
+   IF(OR(C2 < -10, C2 > 10), "Unfair",
+      "Fair"
+   )
+)
